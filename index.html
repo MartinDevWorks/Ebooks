@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Martin Esquivias</title>
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet" />
+
+  <!-- CSS global -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container nav-bar">
+      <div class="brand">
+        <div class="brand-logo"></div>
+        <div class="brand-text">
+          <span class="brand-name">Somos Todo</span>
+          <span class="brand-tagline">Conciencia · Abundancia · Despertar</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+
+      <nav class="nav-links">
+        <a href="index.html" class="active">Inicio</a>
+        <a href="ebooks.html">Ebooks</a>
+        <a href="about.html">Sobre mí</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="nav-cta">
+          <span>●</span> Contacto
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <!-- HERO -->
+    <section id="hero">
+      <div class="container hero-grid">
+        <div>
+          <div class="hero-kicker">Lectura que transforma, no solo entretiene</div>
+          <h1 class="hero-title">
+            Despierta tu <span class="hero-highlight">abundancia</span> y tu poder interior,
+            una página a la vez.
+          </h1>
+          <p class="hero-subtitle">
+            Soy Martín, escritor y creador de ebooks de superación, abundancia y conexión interior.
+            Aquí encontrarás palabras que elevan tu mente, fortalecen tu espíritu y te acompañan
+            en tu camino de crecimiento.
+          </p>
+
+          <div class="hero-actions">
+            <a href="ebooks.html" class="btn-primary">
+              Ver colección de ebooks
+            </a>
+            <a href="blog.html" class="btn-secondary">
+              Leer reflexiones
+            </a>
+          </div>
+
+          <div class="hero-meta">
+            <div class="hero-meta-item">
+              <div class="hero-meta-pill">PDF descargables</div>
+            </div>
+            <div class="hero-meta-item">
+              <span>📖 Libros extensos, profundos y prácticos</span>
+            </div>
+            <div class="hero-meta-item">
+              <span>✨ Mensajes espirituales + acciones concretas</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="hero-card" aria-label="Ebook destacado">
+          <div class="hero-card-header">
+            <div class="hero-card-title">Ebook destacado</div>
+            <div class="hero-card-badge">Nuevo lanzamiento</div>
+          </div>
+
+          <div class="ebook-feature">
+            <div class="ebook-cover">
+              <div class="ebook-cover-inner"></div>
+            </div>
+            <div>
+              <div class="ebook-info-title">El Código de la Abundancia</div>
+              <div class="ebook-info-tagline">Estrategia, visualización y fe para una vida plena.</div>
+              <div class="ebook-info-meta">
+                <span>📄 220+ páginas</span>
+                <span>⏱ Lectura guiada</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="hero-card-divider"></div>
+
+          <div class="hero-card-list">
+            <div class="hero-card-list-item">
+              <div class="hero-card-dot"></div>
+              <p>Aprende a reprogramar tu mente para recibir, no solo desear.</p>
+            </div>
+            <div class="hero-card-list-item">
+              <div class="hero-card-dot"></div>
+              <p>Conecta la fe, la acción y la energía creadora en un solo camino práctico.</p>
+            </div>
+            <div class="hero-card-list-item">
+              <div class="hero-card-dot"></div>
+              <p>Incluye ejercicios de visualización para que cada día tenga propósito.</p>
+            </div>
+          </div>
+
+          <div class="hero-card-footer">
+            <div class="price-tag">
+              $1.99 USD <span>PDF descargable</span>
+            </div>
+            <button class="hero-card-cta" type="button">
+              Obtener ahora →
+            </button>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <!-- MINI SECCIÓN EBOOKS RESUMEN -->
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Colección de ebooks</h2>
+          </div>
+          <p class="section-subtitle">
+            Historias, principios y ejercicios para transformar la forma en la que piensas,
+            sientes y decides cada día.
+          </p>
+        </div>
+
+        <div class="ebooks-grid">
+          <!-- Reutilizamos mismas tarjetas que en la página de Ebooks -->
+          <article class="ebook-card">
+            <div class="ebook-card-cover">
+              <div class="ebook-card-cover-inner">
+                El Código<br>de la Abundancia
+              </div>
+            </div>
+            <div class="ebook-card-title">El Código de la Abundancia</div>
+            <div class="ebook-card-tagline">Reescribe tu relación con la riqueza interior y exterior.</div>
+            <p class="ebook-card-desc">
+              Una guía profunda para entender cómo piensas, qué energía proyectas y cómo
+              alinearte con la fuerza creadora que todo lo sostiene. Combina estrategia,
+              visualización y fe en un solo camino práctico.
+            </p>
+            <div class="ebook-card-footer">
+              <div class="ebook-card-meta">
+                <div><strong>$1.99 USD</strong> · PDF</div>
+                <div>📄 220+ páginas · Nivel: Intenso</div>
+              </div>
+              <a href="ebooks.html" class="btn-secondary">Ver detalles</a>
+            </div>
+          </article>
+
+          <article class="ebook-card">
+            <div class="ebook-card-cover">
+              <div class="ebook-card-cover-inner">
+                El Despertar<br>de la Conciencia
+              </div>
+            </div>
+            <div class="ebook-card-title">El Despertar</div>
+            <div class="ebook-card-tagline">Cuando tu conciencia decide dejar de vivir en automático.</div>
+            <p class="ebook-card-desc">
+              Un viaje hacia adentro: cuestionar tus creencias, sanar heridas,
+              comprender tus emociones y elegir, de manera consciente, quién quieres ser
+              en esta etapa de tu vida.
+            </p>
+            <div class="ebook-card-footer">
+              <div class="ebook-card-meta">
+                <div><strong>$1.99 USD</strong> · PDF</div>
+                <div>📄 180 páginas · Nivel: Reflexivo</div>
+              </div>
+              <a href="ebooks.html" class="btn-secondary">Ver detalles</a>
+            </div>
+          </article>
+
+          <article class="ebook-card">
+            <div class="ebook-card-cover">
+              <div class="ebook-card-cover-inner">
+                La Conexión<br>Interior
+              </div>
+            </div>
+            <div class="ebook-card-title">La Conexión</div>
+            <div class="ebook-card-tagline">Alma, mente, emociones y abundancia en una misma frecuencia.</div>
+            <p class="ebook-card-desc">
+              Explora cómo tus pensamientos, emociones y decisiones se entrelazan
+              con la energía de la vida. Ideal para quienes sienten que “hay algo más”
+              y quieren aprender a escucharlo.
+            </p>
+            <div class="ebook-card-footer">
+              <div class="ebook-card-meta">
+                <div><strong>$1.99 USD</strong> · PDF</div>
+                <div>📄 200 páginas · Nivel: Espiritual</div>
+              </div>
+              <a href="ebooks.html" class="btn-secondary">Ver detalles</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONIOS RESUMEN -->
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h2 class="section-title">Testimonios</h2>
+          </div>
+          <p class="section-subtitle">
+            Palabras de personas que decidieron darle una oportunidad a estos libros.
+          </p>
+        </div>
+
+        <div class="testimonials-grid">
+          <article class="testimonial-card">
+            <div class="testimonial-name">Ana L.</div>
+            <div class="testimonial-tag">Lectora de “El Código de la Abundancia”</div>
+            <p class="testimonial-text">
+              “Sentí que este libro me hablaba directo a mí. No solo entendí mejor mis bloqueos,
+              sino que empecé a tomar decisiones distintas con mi dinero y mi energía.”
+            </p>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-name">Carlos R.</div>
+            <div class="testimonial-tag">Lector de “El Despertar”</div>
+            <p class="testimonial-text">
+              “Este libro me acompañó en un momento muy difícil. No promete magia,
+              pero sí claridad, y eso vale oro cuando tu mente está hecha un caos.”
+            </p>
+          </article>
+
+          <article class="testimonial-card">
+            <div class="testimonial-name">María G.</div>
+            <div class="testimonial-tag">Lectora de “La Conexión”</div>
+            <p class="testimonial-text">
+              “Me ayudó a reconciliar mi parte espiritual con mi vida diaria. Dejó de ser ‘teoría bonita’
+              y empezó a ser práctica diaria. Lo sigo releyendo.”
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Somos Todo · Superación Personal</div>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="ebooks.html">Ebooks</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS global -->
+  <script src="script.js"></script>
+</body>
+</html>

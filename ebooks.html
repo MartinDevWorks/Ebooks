@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ebooks | Somos Todo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav-bar">
+      <div class="brand">
+        <div class="brand-logo"></div>
+        <div class="brand-text">
+          <span class="brand-name">Somos Todo</span>
+          <span class="brand-tagline">Superación · Abundancia · Ebooks</span>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="ebooks.html" class="active">Ebooks</a>
+        <a href="about.html">Sobre mí</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="nav-cta">
+          <span>●</span> Contacto
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section>
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h1 class="section-title">Colección de ebooks</h1>
+          </div>
+          <p class="section-subtitle">
+            Elige el libro que resuena con el momento de tu vida.
+            Todos en formato PDF descargable, listos para acompañar tu proceso.
+          </p>
+        </div>
+
+        <p class="section-intro">
+          Cada ebook está diseñado para ser una conversación honesta y profunda contigo.
+          Puedes leerlos en tu celular, tablet o computadora, subrayar, tomar notas y regresar a ellos
+          cada vez que necesites claridad.
+        </p>
+
+        <div class="ebooks-grid">
+          <!-- Mismas tarjetas que en el index, pero aquí son la sección principal -->
+      <article class="ebook-card"> 
+        <div class="ebook-card-cover">
+          <div class="ebook-card-cover-inner">
+          El Código<br>de la Abundancia
+        </div>
+        </div>
+
+        <div class="ebook-card-title">El Código de la Abundancia</div>
+        <div class="ebook-card-tagline">Reescribe tu relación con la riqueza interior y exterior.</div>
+
+        <p class="ebook-card-desc">
+          Comprende cómo se forman tus creencias sobre el dinero, la dignidad y el merecimiento.
+          Aprende a combinar estrategia, visualización y fe para abrirte a nuevas oportunidades
+          sin perder tu esencia.
+        </p>
+
+        <div class="ebook-card-footer">
+        <div class="ebook-card-meta">
+        <div><strong>$1.99 USD</strong> · PDF</div>
+        <div>📄 18 Capitulos · Nivel: Intenso</div>
+        </div>
+
+        <!-- NUEVO enlace a la landing -->
+        <a href="libros/codigo-de-la-abundancia.html" class="btn-secondary">
+          Ver detalles
+        </a>
+        </div>
+      </article>
+
+
+          <article class="ebook-card">
+            <div class="ebook-card-cover">
+              <div class="ebook-card-cover-inner">
+                El Despertar<br>de la Conciencia
+              </div>
+            </div>
+            <div class="ebook-card-title">El Despertar</div>
+            <div class="ebook-card-tagline">Cuando tu conciencia decide dejar de vivir en automático.</div>
+            <p class="ebook-card-desc">
+              Una invitación a cuestionar el piloto automático, a mirar tus heridas con compasión
+              y a elegir, paso a paso, una vida más alineada con lo que realmente eres y deseas.
+            </p>
+            <div class="ebook-card-footer">
+              <div class="ebook-card-meta">
+                <div><strong>$1.99 USD</strong> · PDF</div>
+                <div>📄 180 páginas · Nivel: Reflexivo</div>
+              </div>
+              <a href="libros/el-despertar-de-la-conciencia.html  " class="btn-secondary">Ver detalles</a>
+            </div>
+          </article>
+
+          <article class="ebook-card">
+            <div class="ebook-card-cover">
+              <div class="ebook-card-cover-inner">
+                La Conexión<br>Interior
+              </div>
+            </div>
+            <div class="ebook-card-title">La Conexión</div>
+            <div class="ebook-card-tagline">Alma, mente, emociones y abundancia en una misma frecuencia.</div>
+            <p class="ebook-card-desc">
+              Un libro para quienes sienten que “algo” los llama a ir más profundo.
+              Aprenderás a escuchar tu intuición, a honrar tus emociones y a entender
+              cómo todo se conecta con la abundancia que manifiestas.
+            </p>
+            <div class="ebook-card-footer">
+              <div class="ebook-card-meta">
+                <div><strong>$1.99 USD</strong> · PDF</div>
+                <div>📄 200 páginas · Nivel: Espiritual</div>
+              </div>
+              <a href="#" class="btn-secondary">Ver detalles</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Somos Todo · Superación Personal</div>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="ebooks.html">Ebooks</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

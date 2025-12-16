@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reflexiones | Somos Todo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav-bar">
+      <div class="brand">
+        <div class="brand-logo"></div>
+        <div class="brand-text">
+          <span class="brand-name">Somos Todo</span>
+          <span class="brand-tagline">Conciencia · Abundancia · Despertar</span>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="ebooks.html">Ebooks</a>
+        <a href="about.html">Sobre mí</a>
+        <a href="blog.html" class="active">Blog</a>
+        <a href="contact.html" class="nav-cta">
+          <span>●</span> Contacto
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="blog">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h1 class="section-title">Reflexiones</h1>
+          </div>
+          <p class="section-subtitle">
+            Artículos cortos para acompañar tus días. Ideas, historias y recordatorios
+            para que no olvides quién eres cuando todo se complica.
+          </p>
+        </div>
+
+        <div class="blog-grid">
+          <article class="blog-card">
+            <div class="blog-tag">Mentalidad</div>
+            <h2 class="blog-title">Cuando la mente se vuelve tu peor enemigo</h2>
+            <p class="blog-excerpt">
+              Hay días donde el problema no es lo que pasa afuera, sino lo que tu mente
+              decide repetir adentro. En este artículo te comparto tres formas prácticas
+              de cambiar la conversación interior...
+            </p>
+            <a href="articulos/mentalidad.html" class="blog-link">Leer artículo completo →</a>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-tag">Abundancia</div>
+            <h2 class="blog-title">La diferencia entre pedir, buscar y actuar</h2>
+            <p class="blog-excerpt">
+              No es lo mismo esperar que la vida cambie, que decidir mover una pieza
+              al día. Te cuento cómo combinar fe, intención y acción para abrir caminos
+              donde antes solo veías límites.
+            </p>
+            <a href="articulos/abundancia.html" class="blog-link">Leer artículo completo →</a>
+          </article>
+
+          <article class="blog-card">
+            <div class="blog-tag">Espiritualidad</div>
+            <h2 class="blog-title">Cuando sientes que “algo” te sostiene</h2>
+            <p class="blog-excerpt">
+              Todos hemos tenido ese momento donde algo sale bien “de puro milagro”.
+              ¿Y si no fuera solo suerte? Exploramos la fuerza creadora que nos conecta
+              a todos...
+            </p>
+            <a href="articulos/espiritualidad.html" class="blog-link">Leer artículo completo →</a>
+          </article>
+        </div>
+
+        <!-- Newsletter -->
+        <div id="newsletter" class="newsletter-card">
+          <div>
+            <h3 class="newsletter-title">Recibe un capítulo gratis en tu correo</h3>
+            <p class="newsletter-text">
+              Déjame acompañar tu proceso con una muestra de mis libros. Te enviaré
+              un capítulo gratuito y, después, reflexiones breves para mantener
+              tu mente enfocada en lo que sí puedes construir.
+            </p>
+          </div>
+          <form class="newsletter-form">
+            <input type="email" class="input" placeholder="Tu correo electrónico" required />
+            <button type="submit" class="btn-primary">
+              Enviar capítulo
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Somos Todo · Superación Personal</div>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="ebooks.html">Ebooks</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

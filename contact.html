@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contacto | Somos Todo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container nav-bar">
+      <div class="brand">
+        <div class="brand-logo"></div>
+        <div class="brand-text">
+          <span class="brand-name">Somos Todo</span>
+          <span class="brand-tagline">Conciencia · Abundancia · Despertar</span>
+        </div>
+      </div>
+      <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+      <nav class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="ebooks.html">Ebooks</a>
+        <a href="about.html">Sobre mí</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="nav-cta active">
+          <span>●</span> Contacto
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section id="contact">
+      <div class="container">
+        <div class="section-header">
+          <div>
+            <h1 class="section-title">Contacto</h1>
+          </div>
+          <p class="section-subtitle">
+            Escribe si deseas adquirir un ebook, colaborar, o simplemente compartir
+            en qué parte de tu proceso te encuentras.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <div>
+            <p class="contact-text">
+              A veces solo necesitamos un mensaje honesto, una confirmación o una guía
+              para el siguiente paso. Si algún libro te llamó la atención o te gustaría
+              llevar estos temas a tu comunidad, puedes escribirme aquí:
+            </p>
+            <div class="contact-list">
+              <div><span>Email:</span> tu-correo@martindevworks.com</div>
+              <div><span>Instagram:</span> @somosmastodo</div>
+              <div><span>Facebook:</span> /Somos Todo</div>
+            </div>
+          </div>
+
+          <form class="contact-form">
+            <div class="contact-form-group">
+              <label class="contact-label" for="name">Nombre</label>
+              <input id="name" type="text" class="input" placeholder="Cómo te llamas" required />
+            </div>
+            <div class="contact-form-group">
+              <label class="contact-label" for="email">Correo</label>
+              <input id="email" type="email" class="input" placeholder="Tu correo electrónico" required />
+            </div>
+            <div class="contact-form-group">
+              <label class="contact-label" for="message">Mensaje</label>
+              <textarea id="message" class="textarea" placeholder="Cuéntame en qué puedo ayudarte..." required></textarea>
+            </div>
+            <button type="submit" class="btn-primary" style="margin-top: 0.2rem;">
+              Enviar mensaje
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Somos Todo · Superación Personals</div>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="ebooks.html">Ebooks</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

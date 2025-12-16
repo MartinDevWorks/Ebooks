@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gracias por tu compra | El Código de la Abundancia</title>
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;700&family=Poppins:wght@300;400;500;600&family=Playfair+Display:wght@600;800&display=swap" rel="stylesheet" />
+
+  <!-- CSS global -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- HEADER -->
+  <header>
+    <div class="container nav-bar">
+      <div class="brand">
+        <div class="brand-logo"></div>
+        <div class="brand-text">
+          <span class="brand-name">Martin Esquivias</span>
+          <span class="brand-tagline">Superación · Abundancia · Conciencia</span>
+        </div>
+      </div>
+
+      <button class="nav-toggle" aria-label="Abrir menú">☰</button>
+
+      <nav class="nav-links">
+        <a href="index.html">Inicio</a>
+        <a href="ebooks.html" class="active">Ebooks</a>
+        <a href="about.html">Sobre mí</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html" class="nav-cta">
+          <span>●</span> Contacto
+        </a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- MAIN -->
+  <main>
+    <section class="thanks-section">
+      <div class="container">
+        <div class="thanks-card">
+          <div class="thanks-icon">✔</div>
+
+          <h1 class="thanks-title">¡Gracias por tu compra!</h1>
+
+          <p class="thanks-subtitle">
+            Tu pago por el ebook <strong>“El Código de la Abundancia”</strong> se ha recibido correctamente.
+          </p>
+
+          <div class="thanks-highlight">
+            <p>
+              A continuación puedes descargar tu ebook en PDF.  
+              También te recomiendo guardar el archivo en un lugar seguro
+              o subirlo a tu nube (Google Drive, iCloud, etc.).
+            </p>
+          </div>
+
+          <!-- BOTÓN DE DESCARGA DIRECTA -->
+          <div class="thanks-actions">
+            <!-- Cambia la ruta del PDF a donde lo tengas guardado -->
+            <a href="descargas/codigo-de-la-abundancia.pdf"
+                class="btn-primary"
+                download>
+              Descargar ebook en PDF
+            </a>
+
+            <p class="thanks-note">
+              📩 Si lo prefieres, también puedes abrirlo desde aquí y guardarlo directamente en tu dispositivo.
+            </p>
+          </div>
+
+          <div class="thanks-divider"></div>
+
+          <div class="thanks-secondary">
+            <h2>¿No te llegó nada o tienes algún problema?</h2>
+            <p>
+              Si tienes cualquier dificultad con la descarga, escríbeme y con gusto
+              te reenviaré el archivo manualmente.
+            </p>
+            <ul class="thanks-help-list">
+              <li>✔ Revisa primero tu carpeta de <strong>Spam</strong> o <strong>No deseado</strong>.</li>
+              <li>✔ Intenta descargar desde otro navegador o dispositivo si algo falla.</li>
+              <li>✔ Guárdalo en tu nube para no perderlo.</li>
+            </ul>
+
+            <p class="thanks-contact">
+              📬 Soporte: <a href="mailto:tu-correo@ejemplo.com">tu-correo@ejemplo.com</a>
+            </p>
+          </div>
+
+          <div class="thanks-back-links">
+            <a href="ebooks.html" class="thanks-link">← Volver a mis ebooks</a>
+            <a href="index.html" class="thanks-link">Ir al inicio</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <div class="container footer-inner">
+      <div>© <span id="year"></span> Martin Esquivias · MartinDevWorks</div>
+      <div class="footer-links">
+        <a href="index.html">Inicio</a>
+        <a href="ebooks.html">Ebooks</a>
+        <a href="blog.html">Blog</a>
+        <a href="contact.html">Contacto</a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- JS global -->
+  <script src="script.js"></script>
+</body>
+</html>
